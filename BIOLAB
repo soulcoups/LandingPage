@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biolab</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+   
+    <nav class="navbar">
+  <div class="logo">
+    <img src="assets/images/logo.png" alt="Biolab & Co">
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#">Sobre a Biolab ▾</a></li>
+    <li><a href="#">Produtos ▾</a></li>
+    <li><a href="#">Notícias</a></li>
+    <li><a href="#">Carreiras ▾</a></li>
+    <li><a href="#">Fale Conosco</a></li>
+  </ul>
+
+  <div class="actions">
+    <button class="btn-buy">Compre Agora</button>
+    <div class="search-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    </div>
+  </div>
+</nav>
+
+   <section class="hero-section">
+  <div class="hero-image">
+    <img src="assets/images/hero-bg.png" alt="Cenário Laboratório Biolab">
+  </div>
+
+  <div class="hero-content">
+    <h1>INOVAÇÃO QUE <br> <span>TRANSFORMA</span> VIDAS</h1>
+    <p>A Biolab Farmacêutica une pesquisa, qualidade e tecnologia...</p>
+    <button class="btn-saiba-mais">Saiba mais</button>
+  </div>
+</section>
+
+<section class="info-section">
+  <div class="container">
+    <div class="info-text">
+      <h2>Por que escolher a Biolab?</h2>
+      <p>A Biolab se destaca por investir continuamente em pesquisa, inovação e qualidade, desenvolvendo soluções farmacêuticas que impactam positivamente a saúde e o bem-estar das pessoas.</p>
+      
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h3>+20 milhões</h3>
+          <p>de pessoas impactadas</p>
+        </div>
+        <div class="stat-item">
+          <h3>+20 anos</h3>
+          <p>de experiência</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-image-wrapper">
+      <div class="blue-shape"></div>
+      <div class="image-box">
+        <img src="assets/images/doutora.png" alt="Doutora Biolab">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews-section">
+    <div class="reviews-header">
+        <h2>Avaliações</h2>
+        <p class="subtitle">Excelência reconhecida por milhares de clientes em todo o Brasil</p>
+    </div>
+
+    <div class="carousel-container">
+        <button class="nav-arrow left">❮</button>
+
+        <div class="cards-wrapper">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="quote">"Confiança, qualidade e compromisso com a saúde em cada detalhe."</p>
+                <div class="author">
+                    <img src="assets/images/dra.png" alt="Dra. Mariana">
+                    <div class="author-info">
+                        <strong>Dra. Mariana Costa</strong>
+                        <span>Doutora</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★</div>
+                <p class="quote">"Parceria sólida e excelência farmacêutica que fazem diferença no mercado."</p>
+                <div class="author">
+                    <img src="assets/images/juliana.png" alt="Juliana">
+                    <div class="author-info">
+                        <strong>Juliana Ferreira</strong>
+                        <span>Paciente</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="quote">"A Biolab é referência em inovação e segurança."</p>
+                <div class="author">
+                    <img src="assets/images/dr.jpg" alt="Dr. Rafael">
+                    <div class="author-info">
+                        <strong>Dr. Rafael Oliveira</strong>
+                        <span>Clínico Geral</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="nav-arrow right">❯</button>
+    </div>
+
+    <div class="dots">
+        <span class="dot"></span>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+
+<section class="esg-section">
+    <div class="esg-container">
+        <h2>ESG e Sustentabilidade</h2>
+        <p class="esg-description">
+            Na Biolab valorizamos iniciativas solidárias desde o início de nossas atividades, por isso apoiamos instituições que, assim como nós, se preocupam com as pessoas. 
+            Buscamos continuamente evoluir nossas práticas sustentáveis e reduzir nosso impacto ambiental, visando o benefício do planeta e da comunidade.
+        </p>
+
+        <div class="esg-cards">
+            <div class="esg-card">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </div>
+                <div class="card-text">
+                    <strong>Pilar Ambiental</strong>
+                    <span>(Environmental)</span>
+                </div>
+            </div>
+
+            <div class="esg-card">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-house-chimney-window"></i>
+                </div>
+                <div class="card-text">
+                    <strong>Pilar Social</strong>
+                    <span>(Social)</span>
+                </div>
+            </div>
+
+            <div class="esg-card">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <div class="card-text">
+                    <strong>Pilar Governança</strong>
+                    <span>(Governance)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col branding">
+          <div class="logo">
+    <img src="assets/images/logo2.png" alt="Biolab & Co">
+    </div>
+            <p>A Biolab Farmacêutica desenvolve soluções de qualidade que promovem saúde e bem-estar para pessoas em todo o Brasil.</p>
+            <a href="#" class="privacy-link">Aviso de privacidade</a>
+        </div>
+
+        <div class="footer-col contacts">
+            <h3>CONTATOS</h3>
+            <div class="contact-item">
+                <p>Assessoria de Imprensa</p>
+                <a href="mailto:imprensa@textoassessoria.com.br">imprensa@textoassessoria.com.br</a>
+            </div>
+            <div class="contact-item">
+                <p>Fale Conosco</p>
+                <a href="mailto:faleconosco@biolabfarma.com.br">faleconosco@biolabfarma.com.br</a>
+            </div>
+            <div class="contact-item">
+                <p>Ouvidoria</p>
+                <p>0800 810 3512</p>
+                <a href="http://contatoseguro.com.br/biolab">http://contatoseguro.com.br/biolab</a>
+                <a href="mailto:duvidas.compliance@biolabfarma.com.br">duvidas.compliance@biolabfarma.com.br</a>
+            </div>
+        </div>
+
+        <div class="footer-col social">
+            <h3>SIGA A BIOLAB</h3>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>Copyright © Biolab | Direitos Reservados - 2026</p>
+    </div>
+</footer>
+</body>
+</html>
